@@ -1,0 +1,139 @@
+body {
+    padding: 2% 5% 5% 5%;
+    background-color: #D6D7DC;
+    height: auto;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 45px;
+
+}
+
+.left-section {
+    padding: 2%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-container {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: #F6F6F8;
+    flex: 3;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 8px;
+    height: fit-content;
+}
+
+.today-highlights{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-top {
+    padding-left: 5%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.week {
+    padding-left: 5%;
+    padding-right: 15%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-top >div{
+    border-radius: 20px;
+    background-color: white;
+    padding: 2% 5% 1% 3%;
+    height: 80%;
+    width: 40%;
+}
+
+.section-bottom >div {
+    height: fit-content;
+    border-radius: 20px;
+    background-color: white;
+    padding: 2% 5% 1% 3%;
+    height: 85%;
+    width: 40%;
+}
+.section-bottom {
+    padding-left: 5%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.sunrise-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sunrise-container >div {
+    display: flex;
+    flex-direction: row;
+}
+
+.week >div{
+    background-color: white;
+    border-radius: 20px;
+    width: 140px;
+    height: auto;
+    padding: 2%;
+}
+
+hr{
+    border: 0;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    height: 2%;
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.condition, .humidity {
+    display: flex;
+}
