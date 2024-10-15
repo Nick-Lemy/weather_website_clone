@@ -168,6 +168,7 @@ button{
     background-color: #D6D7DC;
     color: black;
     font-weight: bold;
+    text-align: center;
 }
 
 button:hover {
@@ -179,6 +180,10 @@ button:hover {
     width: 30px;
     height: auto;
     padding: 0%;
+}
+
+.week p {
+    font-weight: bold;
 }
 
 .city-image {
